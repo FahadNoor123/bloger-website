@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       // '/api': 'http://localhost:3000/',
-      '/api': 'https://backend-of-blog-git-main-fahadnoor123.vercel.app/',
+      '/api': 'https://backend-of-blog.vercel.app/',
     },
     host: '0.0.0.0',
   },
