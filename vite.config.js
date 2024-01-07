@@ -6,7 +6,8 @@ import path from 'path';
 export default defineConfig({
   server: {
     proxy: {
-      '/api': 'http://localhost:3000/',
+      // '/api': 'http://localhost:3000/',
+      '/api': 'https://backend-of-blog-hbr44s9xz-fahadnoor123.vercel.app/',
     },
     host: '0.0.0.0',
   },
