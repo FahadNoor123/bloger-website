@@ -7,8 +7,10 @@ export default defineConfig({
   server: {
     proxy: {
       // '/api': 'http://localhost:3000/',
-      '/api': 'https://backend-of-blog.vercel.app/',
-    },
+      '/api': {
+        target: 'https://backend-of-blog.vercel.app/',
+        logLevel: 'debug',
+      }},
     host: '0.0.0.0',
   },
   plugins: [react()],
