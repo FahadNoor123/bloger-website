@@ -3,19 +3,19 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 
-import About from './components/about/About'
-import Home from './components/home/Home.jsx'
+import About from '@components/about/About'
+import Home from '@components/home/Home.jsx'
 import Layout from './Layout.jsx';
-import Contact from './components/contact/contact.jsx'
+import Contact from '@components/contact/contact.jsx'
 import { Route } from 'react-router-dom'
-import User from './components/user/User.jsx'
-import Login from './components/login/Login.jsx'
+import User from '@components/user/User.jsx'
+import Login from '@components/login/Login.jsx'
 
-import Github, {githubInfoLoader }  from './components/github/Github.jsx'
-import WriteBlog from './components/writeBlog/WriteBlog.jsx'
-import ReadBlog from './components/readBlog/ReadBlog.jsx'
-import YourBlog from './components/yourBlog/YourBlog.jsx'
-import EditBlog from './components/editBlog/EditBlog.jsx'
+import Github, {githubInfoLoader }  from '@components/github/Github.jsx'
+import WriteBlog from '@components/writeBlog/WriteBlog.jsx'
+import ReadBlog from '@components/readBlog/ReadBlog.jsx'
+import YourBlog from '@components/yourBlog/YourBlog.jsx'
+import EditBlog from '@components/editBlog/EditBlog.jsx'
 
 
 // const router=createBrowserRouter([
