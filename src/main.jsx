@@ -6,7 +6,7 @@ import { RouterProvider, createBrowserRouter, createRoutesFromElements } from 'r
 import About from '@components/about/About'
 import Home from '@components/home/Home.jsx'
 import Layout from './Layout.jsx';
-import Contact from '@components/contact/contact.jsx'
+import Contact from '@components/contact/Contact.jsx'
 import { Route } from 'react-router-dom'
 import User from '@components/user/User.jsx'
 import Login from '@components/login/Login.jsx'
